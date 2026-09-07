@@ -32,9 +32,11 @@ export default function Home() {
     <section className="hero" id="top">
       <Image className="hero-image" src="/images/hero.jpg" alt="Сервировка мероприятия Кейтеринг Демидов" fill priority sizes="100vw" />
       <div className="hero-shade"/><div className="hero-orbit" aria-hidden="true"><span/></div>
-      <div className="hero-content"><p className="eyebrow">Москва · Кейтеринг полного цикла</p><h1>Создаём события<br/><em>со вкусом</em></h1><p className="hero-copy">Надёжный гастрономический партнёр в организации мероприятий любого масштаба.</p><div className="hero-actions"><a className="button button-gold" href="#contacts">Обсудить мероприятие <ArrowUpRight size={18}/></a><a className="text-link" href="#formats">Смотреть форматы <ArrowDownRight size={18}/></a></div></div>
+      <div className="hero-content"><p className="eyebrow">Москва · Кейтеринг полного цикла</p><h1>Создаём <span>события</span><br/><em>со вкусом</em></h1><p className="hero-copy">Надёжный гастрономический партнёр в организации мероприятий любого масштаба.</p><div className="hero-actions"><a className="button button-gold" href="#contacts">Обсудить мероприятие <ArrowUpRight size={18}/></a><a className="text-link" href="#formats">Смотреть форматы <ArrowDownRight size={18}/></a></div></div>
       <div className="hero-stat"><strong>7+</strong><span>лет создаём<br/>большие события</span></div>
+      <div className="hero-stamp" aria-hidden="true">Restaurant<br/>quality<br/><b>101%</b></div>
     </section>
+    <div className="marquee" aria-hidden="true"><div>БАНКЕТЫ ✦ ФУРШЕТЫ ✦ БИЗНЕС-ЗАВТРАКИ ✦ КОРПОРАТИВНОЕ ПИТАНИЕ ✦ БАНКЕТЫ ✦ ФУРШЕТЫ ✦</div></div>
 
     <section className="intro section" id="about"><p className="section-label">01 / О компании</p><div className="intro-grid"><h2>Партнёры,<br/><span>а не клиенты</span></h2><div className="intro-copy"><p>Уже более 7 лет мы — надёжный оператор питания на крупнейших спортивных площадках Москвы. Организуем масштабные мероприятия, где важны безупречная логистика, чёткая работа команды и качество.</p><p>Собственное современное производство, складской комплекс и автопарк позволяют нам быть мобильными и оперативными. Главная гордость — команда профессионалов, для которой нет мелочей.</p></div></div></section>
 
